@@ -3,9 +3,30 @@
   margin: auto;
   height: 250px;
   overflow: scroll;
+  overflow-x: hidden;
   text-align: center;
   font-weight: bold;
   font-size: 1.2rem;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: white;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }
 
 @media (min-width: 500px) and (min-height: 401px) {
