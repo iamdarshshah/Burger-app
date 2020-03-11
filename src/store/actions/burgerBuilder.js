@@ -34,6 +34,7 @@ export const initIngredients = () => {
     axios
       .get("https://react-my-burger-32633.firebaseio.com/ingredients.json")
       .then(res => {
+        console.log(res.data);
         dispatch(setIngredients(res.data));
       })
       .catch(error => {
