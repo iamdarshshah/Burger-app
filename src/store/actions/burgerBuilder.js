@@ -1,5 +1,4 @@
 import * as actionTypes from "./actionsTypes";
-import { act } from "react-dom/test-utils";
 import axios from "../../axios-orders";
 
 export const addIngredient = name => {
